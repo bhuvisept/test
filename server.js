@@ -28,7 +28,7 @@ var app = express();
 
 // Set view engine to ejs
 app.set('view engine', 'ejs');
-
+console.log("Test");
 // Use the body-parser package in our application
 app.use(bodyParser.urlencoded({
   extended: true
